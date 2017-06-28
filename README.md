@@ -8,6 +8,8 @@
 = (Node.js + TypeScript) * ( Chai + Mocha + Istanbul ) * (Travis CI + appveyor) * Codecov
 
 npmパッケージを作るときのテンプレート
+`https://github.com/Harurow/template-npm.git`
+からクローンしてご利用ください
 
 ## Frameworks and packages
 Node.js + TypeScript
