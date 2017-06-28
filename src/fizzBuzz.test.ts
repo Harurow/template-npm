@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { fizzBuzz } from '../src/index'
+import { fizzBuzz } from './'
 
 describe('fizz-buzz', () => {
     it('1', () => {
