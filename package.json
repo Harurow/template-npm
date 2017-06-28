@@ -1,6 +1,6 @@
 {
   "name": "template-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "npm package template.",
   "main": "dist/prod/index.js",
   "typings": "dist/prod/index.d.ts",
@@ -16,7 +16,9 @@
     "prereport": "tsc",
     "report": "istanbul cover -x **/*.test.js _mocha",
     "postreport": "remap-istanbul -i ./dist/coverage/coverage.json -o ./dist/html-report -t html && open ./dist/html-report/index.html",
-    "rebuild": "npm-run-all clean build"
+    "rebuild": "npm-run-all clean build",
+    "prebeta": "npm-run-all rebuild",
+    "publish-beta": "npm publish ./ --tag beta"
   },
   "author": "Harurow (https://github.com/Harurow)",
   "license": "MIT",
