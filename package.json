@@ -1,0 +1,35 @@
+{
+  "name": "template-npm",
+  "version": "0.0.1",
+  "description": "npm package template.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.prod.json",
+    "watch": "mocha-typescript-watch",
+    "pretest": "tsc",
+    "test": "mocha",
+    "clean": "rimraf dist",
+    "precov": "tsc",
+    "cov": "istanbul cover -x **/*.test.js _mocha",
+    "postcov": "remap-istanbul -i ./dist/coverage/coverage.json -o ./dist/coverage/coverage.json",
+    "prereport": "tsc",
+    "report": "istanbul cover -x **/*.test.js _mocha",
+    "postreport": "remap-istanbul -i ./dist/coverage/coverage.json -o ./dist/html-report -t html && open ./dist/html-report/index.html"
+  },
+  "author": "Harurow (https://github.com/Harurow)",
+  "license": "MIT",
+  "repository": "https://github.com/Harurow/template-npm.git",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "mocha-typescript": "^1.1.5",
+    "remap-istanbul": "^0.9.5",
+    "rimraf": "^2.6.1",
+    "source-map-support": "^0.4.15",
+    "tslint": "^5.4.3",
+    "typescript": "^2.4.1"
+  }
+}

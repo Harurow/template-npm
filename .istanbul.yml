@@ -1,0 +1,3 @@
+#.istanbul.yml
+reporting:
+    dir: ./dist/coverage
