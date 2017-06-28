@@ -1,9 +1,20 @@
 {
   "name": "template-npm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "npm package template.",
   "main": "dist/prod/index.js",
   "typings": "dist/prod/index.d.ts",
+  "keywords": [
+    "template",
+    "typescript",
+    "mocha",
+    "chai",
+    "istanbul",
+    "travis-ci",
+    "appveyor",
+    "codecov",
+    "coverage"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.prod.json",
     "watch": "mocha-typescript-watch",
