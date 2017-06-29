@@ -1,6 +1,6 @@
 {
   "name": "template-npm",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "npm package template.",
   "main": "dist/prod/index.js",
   "typings": "dist/prod/index.d.ts",
@@ -34,7 +34,7 @@
     "publish-beta": "npm publish ./ --tag beta"
   },
   "author": "Harurow (https://github.com/Harurow)",
-  "license": "MIT",
+  "license": "CC0-1.0",
   "repository": "https://github.com/Harurow/template-npm.git",
   "devDependencies": {
     "@types/chai": "^4.0.1",
