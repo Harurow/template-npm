@@ -5,7 +5,7 @@
   "main": "dist/prod/index.js",
   "typings": "dist/prod/index.d.ts",
   "author": "Harurow (https://github.com/Harurow)",
-  "repository": "https://github.com/Harurow/template-npm.git",
+  "repository": "Harurow/template-npm",
   "license": "CC0-1.0",
   "keywords": [
     "template",
