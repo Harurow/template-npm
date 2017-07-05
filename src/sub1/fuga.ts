@@ -16,7 +16,7 @@ const isBuzz = (num: number): boolean =>
 const isFizzBuzz = (num: number): boolean =>
     isFizz(num) && isBuzz(num)
 
-const log = (msg: any) => {
+const log = (_: any) => {
     // console.log(msg)
 }
 

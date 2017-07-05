@@ -7,11 +7,9 @@
     "rules": {
         "no-unused-expression": true,
         "no-duplicate-variable": true,
-        "no-unused-variable": true,
         "no-console": [
             false
         ],
-        "boolean-trivia": true,
         "class-name": true,
         "comment-format": [true,
             "check-space"
@@ -21,22 +19,13 @@
             "spaces"
         ],
         "jsdoc-format": true,
-        "linebreak-style": [true, "CRLF"],
-        "next-line": [true,
-            "check-catch",
-            "check-else"
-        ],
-        "no-bom": true,
-        "no-in-operator": true,
-        "no-increment-decrement": true,
+        "linebreak-style": [true, "LF"],
         "no-inferrable-types": true,
         "no-internal-module": true,
         "no-null-keyword": false,
         "no-switch-case-fall-through": true,
         "no-trailing-whitespace": true,
-        "no-type-assertion-whitespace": true,
         "no-var-keyword": true,
-        "object-literal-surrounding-space": true,
         "one-line": [true,
             "check-open-brace",
             "check-whitespace"
@@ -49,7 +38,6 @@
         "semicolon": [true,
             "never"],
         "triple-equals": true,
-        "type-operator-spacing": true,
         "typedef-whitespace": [
             true,
             {

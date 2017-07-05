@@ -10,6 +10,8 @@
     "sourceMap": false,
     "outDir": "./dist/prod/",
     "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "experimentalDecorators": true
   },
   "include": [
